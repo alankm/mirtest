@@ -2,7 +2,7 @@ states:
   - id: css-get
     type: getter 
     variables:
-    - key: 'VAR3.css'
+    - key: 'var3.css'
       scope: namespace
     transform: 'jq(.var)'
 
