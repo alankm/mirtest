@@ -1,0 +1,8 @@
+start:
+  type: event
+  event:
+    type: gh-event
+states:
+- id: log
+  type: noop
+  log: 'jq(.)'
