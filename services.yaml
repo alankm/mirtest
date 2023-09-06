@@ -1,0 +1,6 @@
+direktiv_api: services/v1
+services:
+- name: requester
+  image: direktiv/request:v4
+- name: otherrequester
+  image: direktiv/request:v4
